@@ -1,0 +1,32 @@
+{
+  "name": "lossless-jpeg-decoder",
+  "version": "1.0.0",
+  "description": "Lossless JPEG decoder",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rawdevjs/lossless-jpeg-decoder.git"
+  },
+  "keywords": [
+    "jpeg",
+    "lossless",
+    "decoder"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawdevjs/lossless-jpeg-decoder/issues"
+  },
+  "homepage": "https://github.com/rawdevjs/lossless-jpeg-decoder",
+  "dependencies": {
+    "datastream.js": "^0.1.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "readmeFilename": "README.md"
+}
